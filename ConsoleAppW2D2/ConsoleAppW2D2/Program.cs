@@ -25,7 +25,7 @@ internal class Program
 
         Console.WriteLine("Digita il tuo numero(+39 gia incluso)");
 
-        Info.Telefono = 
+        Info.Telefono = Console.ReadLine();
 
 
 
@@ -34,8 +34,11 @@ internal class Program
         Console.WriteLine("++++ INIZIO Informazioni Personali: ++++");
         Console.WriteLine($"Nome:{Info.Nome}");
         Console.WriteLine($"Cognome:{Info.Cognome}");
-        Console.WriteLine($"Email:{}");
+        Console.WriteLine($"Email:{Info.Email}");
         Console.WriteLine($"Telefono: +39{Info.Telefono}");
+        Console.WriteLine("++++ FINE Informazioni Personali");
+        Console.WriteLine("");
+        Console.WriteLine("++++ INIZIO S");
 
     }
 }

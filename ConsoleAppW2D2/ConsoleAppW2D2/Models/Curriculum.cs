@@ -12,7 +12,7 @@ namespace ConsoleAppW2D2.Models
         {
             internal string Nome { get; set; } = "";
             internal string Cognome { get; set; } = "";
-            internal int Telefono { get; set; } = 0;
+            internal string Telefono { get; set; } = "";
             internal string Email { get; set; } = "";
         }
         internal class Studi
